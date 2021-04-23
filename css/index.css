@@ -1,5 +1,5 @@
 * {
-    background: #ffffff;
+    
     font-family: 'Crimson Text', serif;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Open Sans', sans-serif;
@@ -8,7 +8,24 @@
 .brands-logotips {
     display: flex;
     align-items: center;
-    margin: 0;
+    padding: 0;
+    margin: 0 0 0 110px;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    margin: 69px 0 0 110px;
+    background-color: rgba(238, 228, 219, 1);
+    width: 1180px;
+    Height: 411px;
+}
+
+.top {
+    background-color: rgba(238, 228, 219, 1);
+    width: 307px;
+    margin: 0 0 0 113px;
+    
 }
 
 .brands-logo {
@@ -25,6 +42,7 @@
     font-size: 40px;
     line-height: 110%;
     color: #1E0606;
+    margin: 0;
 }
 
 .banner-text {
@@ -36,12 +54,27 @@
 }
 
 .banner-foot {
+    width: 1180px;
+    height: 39px;
     font-style: normal;
     font-weight: bold;
     font-size: 12px;
     line-height: 16px;
     text-align: center;
     text-transform: uppercase;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(194, 153, 116, 1);
+    margin: 0 0 0 110px;
+}
+
+.monster {
+    width: 635.49px;
+    height: 461px;
+    margin: 0 0 50px;
+}
+
+.category {
+    margin: 0 0 0 110px;
 }
 
 .category-list {
@@ -54,27 +87,27 @@
     max-height: 270px;
 }
 
-.category4 {
-    background-color:  rgb(8, 201, 8);
-    margin: 46px 18px 47px;
-    border: 46px 18px 47px;
-    padding: 46px 18px 47px;
-    Width :244px;
-    Height: 177px;
+.category-item {
+    Width: 280px;
+    height: 270px;
     color: black;
-    margin: 0;
-        
+    margin: 0 20px 0 0;
 }
 
+
+
 .category-text {
+    font-family: 'Montserrat';
     font-style: normal;
     font-weight: bold;
     font-size: 26px;
     line-height: 32px;
     text-align: center;
     text-transform: uppercase;
-    color: black;
+
+    color: #FFFFFF;
 }
+
 
 .head-text {
     font-style: normal;
@@ -84,6 +117,25 @@
     text-transform: uppercase;
     color: #1E0606;
     width: 700px;
+}
+
+.box {
+    position: relative;
+}
+
+.box::after {
+    content: '';
+    display: block;
+    position: absolute;
+    background: rgba(225, 240, 247, 1);
+    Width: 543px;
+    height: 209px;
+    z-index: -1;
+}
+
+
+.art {
+    z-index: 1;
 }
 
 .delivery {
@@ -115,6 +167,8 @@
 
 .contacts {
     display: inline-flex;
+    z-index: 2;
+    margin: 0 0 0 110px;
 }
 
 .delivery-text {

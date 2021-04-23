@@ -1,0 +1,22 @@
+.price {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #1E0606;
+}
+
+.items {
+    display: flex;
+    align-items: center;
+    max-width: 1400px;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.items-toys {
+    margin: 60px 20px 25px 0;
+
+}
