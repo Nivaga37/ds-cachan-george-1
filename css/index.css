@@ -1,8 +1,5 @@
 * {
-    
-    font-family: 'Crimson Text', serif;
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Crimson Text', 'Montserrat', 'Open Sans',Arial serif;
 }
 
 .brands-logotips {
@@ -15,15 +12,15 @@
 .banner {
     display: flex;
     align-items: center;
-    margin: 69px 0 0 110px;
+    margin: 130px 0 0 110px;
     background-color: rgba(238, 228, 219, 1);
     width: 1180px;
-    Height: 411px;
+    Height: 370px;
 }
 
 .top {
     background-color: rgba(238, 228, 219, 1);
-    width: 307px;
+    width: 330px;
     margin: 0 0 0 113px;
     
 }
@@ -38,39 +35,41 @@
     font-weight: bold;
     font-size: 40px;
     line-height: 110%;
-    font-style: normal;
-    font-size: 40px;
-    line-height: 110%;
     color: #1E0606;
-    margin: 0;
+    margin: 10px 0 20px;
+    background-color: rgba(238, 228, 219, 1);
 }
 
 .banner-text {
-    font-family: Crimson Text;
+    font-family: "Crimson Text";
     font-style: italic;
     font-weight: normal;
     font-size: 20px;
     line-height: 25px;
+    margin: 0 0 20px;
+    background-color: rgba(238, 228, 219, 1);
 }
 
 .banner-foot {
     width: 1180px;
     height: 39px;
+    font-family: 'Open Sans';
     font-style: normal;
     font-weight: bold;
     font-size: 12px;
     line-height: 16px;
     text-align: center;
     text-transform: uppercase;
-    color: rgba(255, 255, 255, 1);
+    color: #FFFFFF;
     background-color: rgba(194, 153, 116, 1);
-    margin: 0 0 0 110px;
+    margin: 0 0 90px 110px;
 }
 
 .monster {
     width: 635.49px;
     height: 461px;
-    margin: 0 0 50px;
+    margin: 0 0 100px 5px;
+    background-color: rgba(238, 228, 219, 1);
 }
 
 .category {
@@ -78,13 +77,15 @@
 }
 
 .category-list {
+    margin: 0;
     display: flex;
     align-items: center;
     max-width: 100%;
     align-items: center;
     text-transform: uppercase;
-    max-width: 1180px;
+    max-width: 1400px;
     max-height: 270px;
+    padding: 0;
 }
 
 .category-item {
@@ -104,12 +105,23 @@
     line-height: 32px;
     text-align: center;
     text-transform: uppercase;
-
+    margin: 0;
     color: #FFFFFF;
 }
 
+.category-foot {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1E0606;
+    max-width: 580px;
+    margin: 30px 100px 0;
+}
 
 .head-text {
+    font-family: 'Montserrat';
     font-style: normal;
     font-weight: bold;
     font-size: 38px;
@@ -144,16 +156,18 @@
 }
 
 .delivery-img {
-    margin: 90px 120px 90px 110px;
+    margin: 90px 120px 20px 110px;
 }
 
 .delivery-head {
+    font-family: 'Montserrat';
     font-style: normal;
     font-weight: bold;
     font-size: 38px;
     line-height: 46px;
     text-transform: uppercase;
     color: #1E0606;
+    margin: 120px 0 0;
 }
 
 .delivery-menu {
@@ -162,17 +176,22 @@
     font-size: 26px;
     line-height: 32px;
     color: #1E0606;
+    margin: 0 0 22px;
 
+}
+
+
+.delivery-text {
+    width: 480px;    
+    margin: 0 10px 15px 0;
+    padding: 0;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: normal;
 }
 
 .contacts {
     display: inline-flex;
     z-index: 2;
     margin: 0 0 0 110px;
-}
-
-.delivery-text {
-     width: 480px;    
-    margin: 0 210px 15px 0;
-
 }

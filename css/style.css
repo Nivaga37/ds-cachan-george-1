@@ -1,8 +1,6 @@
 * {
     
-    font-family: 'Crimson Text', serif;
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', "Crimson Text", 'Montserrat',Arial serif;
 }
 
 a {
@@ -24,8 +22,8 @@ a {
 .header {
     display: flex;
     align-items: center;
-    max-width: 100%;
-    align-items: center;
+    max-width: 1400px;
+    
     text-transform: uppercase;
     margin:50px 0 60px;
 }
@@ -50,6 +48,15 @@ a {
 .header-menu {
     margin-right: 20px;
     text-decoration: none;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #1E0606;
+}
+
+.menu-text {
+    font-family: 'Open Sans';
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -61,7 +68,8 @@ a {
 }
 
 .header-contact {
-    margin: 0 100px 0 0;
+    margin: 0 115px 0 0;
+    font-family: 'Open Sans';
     font-style: normal;
     font-weight: bold;
     font-size: 14px;
@@ -72,6 +80,9 @@ a {
     color: #1E0606;
 }
 
+.body {
+    margin: 0;
+}
 .seachlogo {
     margin: 0 23px 0 0;
 }
@@ -95,22 +106,27 @@ a {
     align-items: center;
     display: flex;
     background-color: rgba(67, 67, 67, 1);
-    margin: 0 0 0 110px;
+    margin: 0;
     
 }
 
 .footer-header {
+    font-family: "Open Sans";
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 22px;
     background-color: rgba(67, 67, 67, 1);
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 22px;
     color: #AAAAAA;
+    margin: 0 0 23px;
 
+}
+
+.line {
+    background: rgba(102, 102, 102, 1)
+    ;
+    width: 380px;
+    height: 1;
 }
 
 .footer-block {
@@ -122,19 +138,21 @@ a {
     line-height: 22px;
     background-color: rgba(67, 67, 67, 1);
     white-space: nowrap;
-    margin: 100px 20px 28px 110px;
+    margin: 100px 0 0 110px;
 }
 
 .footer-text {
+    font-family: "Open Sans";
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 22px;
     color: #FFFFFF;
     background-color: rgba(67, 67, 67, 1);
+    
 }
 
-.footer-line {
+.footer-foot {
     display: flex;
     align-items: center;
     margin: 28px 110px 100px;
@@ -142,10 +160,17 @@ a {
     background-color: rgba(67, 67, 67, 1);
 }
 
+
+.footer-list {
+    background-color: rgba(67, 67, 67, 1);
+    padding: 0;
+}
+
+
 .footer-black {
     background-color: rgba(67, 67, 67, 1);
     margin-bottom: 15px;
-    margin-right: 100px;
+    margin-right: 130px;
 }
 
 .footer-social {
